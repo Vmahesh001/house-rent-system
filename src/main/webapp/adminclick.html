@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: rgb(223, 242, 242);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .button-container {
+            text-align: center;
+        }
+
+        .action-button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+            background-color: #108c9f;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none; /* Remove default underline for anchor elements */
+            display: inline-block; /* Make the anchor elements inline blocks to apply padding properly */
+        }
+
+        .action-button:hover {
+            background-color: #45a049;
+        }
+    </style>
+    <title>admin page</title>
+</head>
+<body>
+    <div class="button-container">
+        <a href="viewcustomer.jsp" class="action-button">Manage Customer</a>
+        <a href="viewadmin.jsp" class="action-button">Manage Owners</a>
+        <a href="viewhousess.jsp" class="action-button">Manage Houes</a>
+    </div>
+</body>
+</html>

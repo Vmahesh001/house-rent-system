@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>search</title>
+    <style>
+		 @import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+        /* Basic styling */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: rgb(128, 128, 255);
+            color: #fff;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        .search-bar {
+            margin: 20px 0;
+            text-align: center;
+           
+        }
+        .search-bar input {
+        width: 300px; /* Adjust width as needed */
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    .search-bar button {
+        padding: 5px 10px;
+        border: none;
+        background-color: #007bff;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .search-bar button:hover {
+        background-color: #0056b3;
+    }
+        search-bar{
+			 width: 400px;
+		}
+        .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .image-container {
+            margin: 10px;
+            text-align: center;
+        }
+        .image-container img {
+            width: 250px;
+            height: 150px;
+            object-fit: cover;
+        }
+        .image-caption {
+            margin-top: 10px;
+        }
+         footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        .social-icons {
+            margin-top: 10px;
+        }
+        .social-icons a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <a href="main.jsp">Home</a>
+            <a href="contactus.html">Contact Us</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+            <button>Search</button>
+        </div>
+    </header>
+
+    <div class="image-gallery">
+        <div class="image-container">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.4-hrXy9YYNBUhD9a_dLMMgHaEz&pid=Api&rs=1&c=1&qlt=95&w=191&h=124" alt="Image 1">
+            <div class="image-caption">location:palamaner.<br>
+            owner:mahesh.<br>
+            rent:600.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+				
+			</div>
+        </div>
+        <div class="image-container">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.iWc7E2G6cW_lgHG1lKqIngHaEo&pid=Api&rs=1&c=1&qlt=95&w=198&h=124" alt="Image 1">
+            <div class="image-caption">location:ooty.<br>
+            owner:mahesh.<br>
+            rent:60000.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+        </div>
+        <div class="image-container">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.QsZ9OAnWzjeUiJovv5EcagHaE8&pid=Api&rs=1&c=1&qlt=95&w=143&h=95" alt="Image 1">
+            <div class="image-caption">location:tirupathi.<br>
+            owner:mahesh.<br>
+            rent:100000.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+        </div>
+        <div class="image-container">
+            <img src="https://tse1.mm.bing.net/th?id=OIP._sNDIMd7hoWiJiFt-NtgTQHaGL&pid=Api&P=0&h=180" alt="Image 1">
+            <div class="image-caption">location:kerala.<br>
+            owner:mahesh.<br>
+            rent:60000.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+        </div>
+        <div class="image-container">
+            <img src="https://tse2.mm.bing.net/th?id=OIP.Vl-oGfNG88aTyrxxKbSvTAHaE8&pid=Api&P=0&h=180" alt="Image 1">
+            <div class="image-caption">location:chittor.<br>
+            owner:mahesh.<br>
+            rent:5000.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+        </div>
+        <div class="image-container">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.JtcWVDFbWa2HNzIGawRdOgHaHZ&pid=Api&P=0&h=180" alt="Image 1">
+            <div class="image-caption">location:kuppam.<br>
+            owner:mahesh.<br>
+            rent:7000.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+        </div>
+        <div class="image-container">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.R_xTPKagO0-lV6nJDExKggHaE8&pid=Api&P=0&h=180" alt="Image 1">
+            <div class="image-caption">location:kuppam.<br>
+            owner:mahesh.<br>
+            rent:6000.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+        </div>
+        <div class="image-container">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.VwBpzcoRa1p_oSYRo2uSmAHaFj&pid=Api&P=0&h=180" alt="Image 1">
+            <div class="image-caption">location:wayanad.<br>
+            owner:mahesh.<br>
+            rent:60099.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+        </div>
+        <div class="image-container">
+            <img src="https://tse4.mm.bing.net/th?id=OIP.bgvmvnLNPMqmIZJjh7nLEQHaE8&pid=Api&P=0&h=180" alt="Image 1">
+            <div class="image-caption">location:kadapa.<br>
+            owner:mahesh.<br>
+            rent:6009.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+        </div>
+        <div class="image-container">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.IoXx0i40R037XUNBbNOuLgHaFj&pid=Api&P=0&h=180" alt="Image 1">
+            <div class="image-caption">location:kurnool.<br>
+            owner:mahesh.<br>
+            rent:8900.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+        </div>
+        <div class="image-container">
+            <img src="https://tse3.mm.bing.net/th?id=OIP.zcEJhol64CxvBaUYxczZKQHaFs&pid=Api&P=0&h=180" alt="Image 1">
+            <div class="image-caption">location:madhanapalli.<br>
+            owner:mahesh.<br>
+            rent:7000.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+        </div>
+        <div class="image-container">
+            <img src="https://tse1.mm.bing.net/th?id=OIP.003Z9mkZ6NoAWNAWJSiPXAHaE8&pid=Api&P=0&h=180" alt="Image 1">
+            <div class="image-caption">location:kuppam.<br>
+            owner:srikanth.<br>
+            rent:9000.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+    </div>
+    <div class="image-container">
+            <img src="https://images.pexels.com/photos/1029599/pexels-photo-1029599.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 1">
+            <div class="image-caption">location:kuppam.<br>
+            owner:srikanth.<br>
+            rent:9000.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+    </div>
+    <div class="image-container">
+            <img src="https://images.pexels.com/photos/101808/pexels-photo-101808.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 1">
+            <div class="image-caption">location:kuppam.<br>
+            owner:srikanth.<br>
+            rent:9000.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+    </div>
+    <div class="image-container">
+            <img src="https://images.pexels.com/photos/2635038/pexels-photo-2635038.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Image 1">
+            <div class="image-caption">location:kolar.<br>
+            owner:vinay.<br>
+            rent:9000.<br>
+            <a href="login_cust.html">If Interested click here!...</a>
+        </div>
+    </div>
+</div>
+
+    <!-- Add Font Awesome CDN for social media icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</body>
+</html>

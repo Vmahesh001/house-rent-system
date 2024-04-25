@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<!-- Created By CodingLab - www.codinglabweb.com -->
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8">
+    <title>registration house </title>
+    <link rel="stylesheet" href="style5.css">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+<!--	<%@page import="com.spym.bean.UserDao,com.spym.bean.User"%>  
+  
+<%  
+String pwd=request.getParameter("pwd");
+int pwd1=Integer.parsrInt(pwd);
+User u1=UserDao.getRecordByPassword(pwd1);  
+%> -->
+  <div class="container">
+    <div class="title">House Registration</div>
+    <div class="content">
+      <form action="saverecords" method="post" enctype="multipart/form-data">
+        <div class="user-details">
+          <div class="input-box">
+            <span class="details">Full Name</span>
+            <input type="text" placeholder="Enter your name" name="name" required>
+          </div>
+          <div class="input-box">
+            <span class="details">PhoneNumber</span>
+            <input type="text" placeholder="Enter your Phnnumber" name="phonenumber" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Location</span>
+            <input type="text" placeholder="Enter your location" name="location" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Rent</span>
+            <input type="text" placeholder="Enter rent" name="rent" required>
+          </div>
+          <div class="input-box">
+            <span class="details">House Details</span>
+            <input type="text" placeholder="Enter house details" name="housedetails" required>
+          </div>
+          <div class="input-box">
+            <span class="details">BHK</span>
+            <input type="text" placeholder="Enter BHK" name="bhk" required>
+          </div>
+          <div class="input-box">
+            <span class="details">Image</span>
+            <input type="file" placeholder="#" name="image" required>
+          </div>
+        </div>
+        <div class="gender-details">
+          <div class="category">
+          </div>
+        </div>
+        <div class="button">
+          <input type="submit" value="Register">
+        </div>
+        <input type="hidden" value="<%=u.getId()%>" name="image" required>
+      </form>
+    </div>
+  </div>
+
+</body>
+</html>
